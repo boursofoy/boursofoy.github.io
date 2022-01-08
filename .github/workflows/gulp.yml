@@ -6,7 +6,7 @@ on:
     # On which branch
     branches: ["main"]
     # On which files
-    paths: ["dev/scripts/index.js", "dev/styles/index.css", "dev/index.html"]
+    paths: ["dev/scripts/index.js", "dev/styles/index.css", "dev/index.html", "dev/mentions-legales.html"]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:

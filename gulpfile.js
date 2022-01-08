@@ -62,7 +62,7 @@ gulp.task('js', ['js-index']);
 gulp.task('html', function () {
 
     return gulp.src('dev/*.html')
-        .pipe(isDist ? htmlmin({collapseWhitespace: true}) : through())
+        .pipe(isDist ? htmlmin({collapseWhitespace: true, minifyCSS: true}) : through())
         .pipe(gulp.dest('./'));
 });
 
