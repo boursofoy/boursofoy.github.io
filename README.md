@@ -3,7 +3,7 @@ Showcase website.
 
 To install:
 ```
-npm run build
+npm install
 ```
 
 To build:
@@ -18,5 +18,5 @@ npm run try-build
 
 To deploy:
 ```
-npm run try-build
+npm run deploy
 ```
