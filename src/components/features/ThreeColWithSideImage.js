@@ -11,9 +11,10 @@ const Container = tw.div`relative`;
 const ThreeColumnContainer = styled.div`
   ${tw`flex flex-col items-center md:items-stretch md:flex-row flex-wrap md:justify-center max-w-screen-xl mx-auto py-20 md:py-24`}
 `;
-const Subheading = tw(SubheadingBase)`mb-4`;
-const Heading = tw(SectionHeading)`w-full`;
+const Subheading = tw(SubheadingBase)`uppercase text-center md:text-center`;
+const Heading = tw(SectionHeading)`mt-4 font-black text-left text-3xl sm:text-4xl lg:text-5xl text-center md:text-left leading-tight`;
 const Description = tw(SectionDescription)`w-full text-center`;
+const TitlesContent = tw.div`lg:py-8 text-center md:text-center`;
 
 const VerticalSpacer = tw.div`mt-10 w-full`
 
@@ -64,9 +65,11 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
       <div id="first_feature">
         <Container>
           <ThreeColumnContainer>
-            {subheading && <Subheading>{subheading}</Subheading>}
-            <Heading>{heading}</Heading>
-            {description && <Description>{description}</Description>}
+            <TitlesContent>
+              {subheading && <Subheading>{subheading}</Subheading>}
+              <Heading>{heading}</Heading>
+            </TitlesContent>
+              {description && <Description>{description}</Description>}
             <VerticalSpacer />
             {cards.map((card, i) => (
               <Column key={i}>
