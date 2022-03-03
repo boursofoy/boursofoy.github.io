@@ -15,8 +15,8 @@ const AnimatedBackground = tw.div`lg:bg-palette1-400`;
 const VideoBackground = tw.div`max-w-screen-2xl max-h-screen pt-4 hidden lg:block`
 
 const Container = tw.div`relative`;
-const TwoColumn = tw.div`flex flex-col lg:flex-row lg:items-center lg:mx-8 xl:mx-auto xl:px-4 max-w-screen-xl mx-auto pt-10 md:pt-10`;
-const LeftColumn = tw.div`relative lg:w-6/12 lg:mb-20 text-center max-w-lg mx-auto lg:max-w-none lg:text-left`;
+const TwoColumn = tw.div`flex flex-col lg:flex-row lg:items-center lg:mx-auto xl:mx-auto lg:px-4 max-w-screen-lg mx-auto pt-10 md:pt-10`;
+const LeftColumn = tw.div`relative lg:w-7/12 lg:mb-20 text-center max-w-lg mx-auto lg:max-w-none lg:text-left`;
 const RightColumn = tw.div`relative mt-12 lg:mt-0 flex-1 flex flex-col justify-center lg:self-end`;
 
 const Heading = tw.h1`font-bold text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-gray-900 leading-tight`;
