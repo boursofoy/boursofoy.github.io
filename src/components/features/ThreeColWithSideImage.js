@@ -11,7 +11,7 @@ const Container = tw.div`relative`;
 const ThreeColumnContainer = styled.div`
   ${tw`flex flex-col items-center md:items-stretch md:flex-row flex-wrap md:justify-center max-w-screen-xl mx-auto py-20 md:py-24`}
 `;
-const Subheading = tw(SubheadingBase)`uppercase text-center md:text-center`;
+const Subheading = tw(SubheadingBase)`text-center md:text-center`;
 const Heading = tw(SectionHeading)`mt-4 font-black text-left text-3xl sm:text-4xl lg:text-5xl text-center md:text-left leading-tight`;
 const Description = tw(SectionDescription)`w-full text-center`;
 const TitlesContent = tw.div`lg:py-8 text-center md:text-center`;

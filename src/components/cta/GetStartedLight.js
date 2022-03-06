@@ -18,7 +18,7 @@ const Heading = tw.h5`text-palette1-100`;
 
 const SocialLinksContainer = tw.div`mt-10`;
 const SocialLink = styled.a`
-  ${tw`cursor-pointer inline-block text-black hover:text-palette1-100 transition duration-300 mx-4`}
+  ${tw`cursor-pointer inline-block text-black hover:text-palette1-500 transition duration-300 mx-4`}
   svg {
     ${tw`w-32 h-32`}
   }

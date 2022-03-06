@@ -22,10 +22,13 @@ const RightColumn = tw.div`relative mt-12 lg:mt-0 flex-1 flex flex-col justify-c
 const Heading = tw.h1`font-bold text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-gray-900 leading-tight`;
 const Paragraph = tw.p`my-5 text-black text-base xl:text-lg`;
 
-const Hook = tw.a`flex flex-col justify-center text-lg max-w-screen-sm text-center font-medium text-black mx-auto`;
+const Hook = tw.a`
+  flex flex-col justify-center text-lg max-w-screen-sm text-center font-medium text-black mx-auto
+  transition duration-300 hocus:text-palette1-500
+`;
 
 const IllustrationContainer = tw.div`flex justify-center lg:justify-end items-center`;
-const IconContainer = tw.div`flex mx-auto h-8 w-8 text-black justify-center`;
+const IconContainer = tw.div`flex mx-auto h-8 w-8 justify-center`;
 
 export default ({ roundedHeaderButton }) => {
 
@@ -37,7 +40,7 @@ export default ({ roundedHeaderButton }) => {
   return (
     <AnimatedBackground>
       <Header background={true} roundedHeaderButton={roundedHeaderButton} />
-      <VideoBackground style={{position:"absolute", opacity:"35%"}}>
+      <VideoBackground style={{position:"absolute", opacity:"25%"}}>
         <video autoPlay loop muted id="video">
           <source src={BackgroundVideo} type="video/mp4"/>
         </video>
@@ -46,7 +49,7 @@ export default ({ roundedHeaderButton }) => {
         <TwoColumn>
           <LeftColumn>
             <Heading>
-              {data.main1}<span tw="text-palette1-100">{data.color1}</span>{data.main2}<span tw="text-palette1-100">{data.color2}</span>
+              {data.main1}<span tw="text-palette1-500">{data.color1}</span>{data.main2}<span tw="text-palette1-500">{data.color2}</span>
             </Heading>
             <Paragraph>
               {data.sub}

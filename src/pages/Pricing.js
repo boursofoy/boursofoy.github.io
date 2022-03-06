@@ -9,7 +9,6 @@ import {pricing as data} from "../data";
 
 export default () => {
 
-
     return (
         <Wrapper>
             <Header roundedHeaderButton={true}/>

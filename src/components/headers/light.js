@@ -28,13 +28,13 @@ export const NavLink = tw.a`
 `;
 
 export const PrimaryLink = tw(NavLink)`
-  lg:mx-0 border-2 border-palette1-100
+  lg:mx-0 border-2 border-palette1-500
   px-8 py-3 rounded text-black
-  hocus:bg-palette1-100 hocus:text-white focus:shadow-outline
+  hocus:bg-palette1-500 hocus:border-palette1-500 hocus:text-white focus:shadow-outline
 `;
 
 export const LogoLink = styled(NavLink)`
-  ${tw`flex items-center font-black border-b-0 text-2xl! ml-0!`};
+  ${tw`flex items-center font-black border-b-0 hocus:text-palette1-500 text-2xl! ml-0!`};
   
   /*
   img {

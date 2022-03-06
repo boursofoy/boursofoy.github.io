@@ -15,7 +15,7 @@ const Text = tw.h5`text-white text-2xl sm:text-3xl font-bold`;
 const LinksContainer = tw(ColumnContainer)`flex justify-center lg:justify-end mt-6 lg:mt-0 flex-col sm:flex-row`;
 
 const Link = tw.a`w-full sm:w-auto text-sm sm:text-base px-6 py-3 sm:px-8 sm:py-4 lg:px-10 lg:py-5 mt-4 first:mt-0 sm:mt-0 sm:mr-8 sm:last:mr-0 rounded-2xl font-bold border border-transparent tracking-wide transition duration-300 focus:outline-none focus:shadow-outline`;
-const PrimaryLink = tw(Link)`bg-palette1-400 text-black shadow-lg hocus:bg-palette1-100 hocus:text-white`;
+const PrimaryLink = tw(Link)`bg-white text-black shadow-lg hocus:bg-palette1-500 hocus:text-white`;
 
 const DecoratorBlobContainer = tw.div`absolute inset-0 overflow-hidden rounded-lg`
 const DecoratorBlob1 = tw(SvgDecoratorBlob1)`absolute bottom-0 left-0 w-80 h-80 transform -translate-x-20 translate-y-32 text-palette1-100 opacity-50`

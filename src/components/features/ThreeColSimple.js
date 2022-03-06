@@ -11,7 +11,7 @@ import ShieldIconImage from "images/shield-icon.svg";
 import CustomizeIconImage from "images/customize-icon.svg";
 
 const Heading = tw(SectionHeading)``;
-const Subheading = tw(SubheadingBase)`uppercase text-center mb-3 text-palette1-100`;
+const Subheading = tw(SubheadingBase)`uppercase text-center mb-3 text-palette1-500`;
 const Description = tw(SectionDescription)`text-center mx-auto`;
 const ThreeColumnContainer = styled.div`
   ${tw`mt-10 flex flex-col items-center lg:items-stretch lg:flex-row flex-wrap lg:justify-center max-w-screen-lg mx-auto`}
@@ -38,7 +38,7 @@ const Card = styled.a`
   }
 
   .link {
-    ${tw`mt-auto inline-flex items-center pt-5 text-sm font-bold text-gray-500 leading-none hocus:text-palette1-200 transition duration-300`}
+    ${tw`mt-auto inline-flex items-center pt-5 text-sm font-bold text-gray-500 leading-none hocus:text-palette1-500 transition duration-300`}
     .icon {
       ${tw`ml-2 w-4`}
     }

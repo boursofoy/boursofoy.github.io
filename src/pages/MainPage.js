@@ -16,7 +16,7 @@ import MiniCenteredFooter from "../components/footers/MiniCenteredFooter";
 
 
 export default () => {
-    const Subheading = tw.span`uppercase tracking-widest font-bold text-palette1-100`;
+    const Subheading = tw.span`uppercase tracking-widest font-bold text-palette1-500`;
     const HighlightedText = tw.span`text-palette1-100`;
 
     return (

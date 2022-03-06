@@ -1,4 +1,4 @@
 import tw from "twin.macro";
 
 export const SectionHeading = tw.h2`text-3xl sm:text-4xl font-black tracking-wide text-center`
-export const Subheading = tw.h5`font-bold text-palette1-100`
+export const Subheading = tw.h5`uppercase font-bold text-palette1-500`

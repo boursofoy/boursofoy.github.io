@@ -16,7 +16,7 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import {ReactComponent as LinkedinIcon} from "./images/linkedin-icon.svg";
 
 
-const Subheading = tw.span`uppercase tracking-widest font-bold text-palette1-100`;
+const Subheading = tw.span`uppercase tracking-widest font-bold text-palette1-500`;
 const HighlightedText = tw.span`text-palette1-100`;
 
 export const header = {
